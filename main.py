@@ -1,7 +1,7 @@
-from matriz import Matriz
+from matriz import ToDo
 
 def main():
-    m = Matriz([[1, 2], [3, 4]])
+    m = ToDo([[1, 2], [3, 4]])
     m.imprimir()
     print()
     m_transpuesta = m.traspuesta()
